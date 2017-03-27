@@ -1,0 +1,29 @@
+{
+  "name": "canopusmed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "serve": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "connect-mongo": "^1.3.2",
+    "express": "^4.15.2",
+    "express-session": "^1.15.2",
+    "flash": "^1.1.0",
+    "node-uuid": "^1.4.8",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "pug": "^2.0.0-beta11",
+    "vue2-admin-lte": "^0.1.6"
+  }
+}
