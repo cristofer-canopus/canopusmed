@@ -1,10 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
+import App from './routes.js'
 
-
-
-
-
-
-
-ReactDOM.render(<h1>Hello World!</h1>, document.getElementById('app'));
+ReactDOM.render(
+  <App />, document.getElementById('app'))
